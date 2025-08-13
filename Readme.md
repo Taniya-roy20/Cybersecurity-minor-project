@@ -35,7 +35,7 @@ Now that we have Kali Linux installed, it’s time to download Colddbox Easy and
 
               sudo apt install nmap
 
-    <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/5b052d14-12ec-445d-9ff1-bba8d87061a4" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/5b052d14-12ec-445d-9ff1-bba8d87061a4" />
 
 
 2. With the IP address of the target machine, the next step is to find out the open ports and services available on the machine. Type the command
