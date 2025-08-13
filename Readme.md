@@ -80,7 +80,8 @@ The scanner identified three valid usernames, but we did not know the password. 
 the password is 9876543210.
 
 # Step 6: Enumerate Plugins & Themes
-1.      wpscan --url http://192.168.225.2 --enumerate p
+1.
+               wpscan --url http://192.168.225.2 --enumerate p
 
    <img width="602" height="292" alt="image" src="https://github.com/user-attachments/assets/dcf60ae4-d8d6-4eb3-8235-fa0992b9e848" />
 
