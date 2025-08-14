@@ -95,6 +95,52 @@ the password is 9876543210.
 
 <img width="602" height="292" alt="image" src="https://github.com/user-attachments/assets/f5d6fa8a-160d-4dc0-b5ef-e06ba39e9058" />
 
+3. Edit the source code of PHP Files. Add a simple PHP commands shell in the 'header.php'file.
+
+<img width="602" height="292" alt="image" src="https://github.com/user-attachments/assets/a41744b9-9cf3-4554-8062-1e59c4cbebff" />
+
+4. Use the **php-reserve-shell** we will be using the php-reserve shell by pentestmonkey.
+5. change **IP Address and Port** In the reserve shell. To change use the command
+
+                   ifconfig
+To find the IP Adress and Udate it and change the port to 4545.
+
+6. Listen to port using Netcat open you kali terminal and use the command:
+
+                   nc -lvnp 4545
+   
+7. Use Python Spawned Shell Open the puthon spawed shell using command:
+
+                   python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/ea95fdaf-9dc7-4b6b-9435-ddc8cd3e42e1" />
+
+8. Find the wp-config.php File In the PHP files, the most important one is the wp-config.php
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/b32d90fb-f4ea-4cb7-a9f3-00a4fec4014b" />
+
+scroll till it is 100% completed.
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/f4fb7f0c-e0e0-4cb0-b3f0-ff8c272486df" />
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/4750134c-f38f-4e3b-a735-50da3aa4c925" />
+
+9. Decode the Encoded Text From the user.txt file. Decode using Kali box
+
+<img width="1366" height="662" alt="image" src="https://github.com/user-attachments/assets/a531d41b-6036-4103-882b-db32ef3a9415" />
+
+# CONGRATULATIONS! SUCCESSFULLY HACKED!!
+
+<img width="1366" height="348" alt="image" src="https://github.com/user-attachments/assets/d0bb35f1-5004-4376-b42d-e5947e0c6fef" />
+
+
+
+
+
+
+
+
+
 
 
 
