@@ -65,7 +65,8 @@ It also detected the OS as Linux (Ubuntu) and confirmed the machine is up.
 # Step 4: WordPress vulnerability scanner 
 1. Type the command:
 
-      wpscan --url http://192.168.225.2 --enumerate u
+         wpscan --url http://192.168.225.2 --enumerate u
+   
 <img width="602" height="292" alt="image" src="https://github.com/user-attachments/assets/9ad0ae63-0286-470f-b32f-614528b86959" />
 
 The scanner identified three valid usernames, but we did not know the password. So, in the next step, we will be doing the brute force attack to identify the valid password.
